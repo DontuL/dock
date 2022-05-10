@@ -29,6 +29,7 @@ async function init() {
         user,
         password,
         database,
+        db,
     });
 
     return new Promise((acc, rej) => {
